@@ -1,0 +1,5 @@
+Reconnaissance of the amazon.com domain using passive OSINT techniques
+revealed extensive infrastructure, numerous subdomains, and cloud-based
+technologies. The findings highlight the importance of reconnaissance
+in understanding an organization’s digital footprint and potential
+attack surface before any security assessment.
