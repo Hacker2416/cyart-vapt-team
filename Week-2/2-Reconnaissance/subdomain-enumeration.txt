@@ -1,0 +1,16 @@
+Tool: Sublist3r
+
+Command Executed:
+sublist3r -d amazon.com -o subdomains.txt
+
+Results:
+- Total Subdomains Found: 220
+- Examples:
+  - www.amazon.com
+  - advertising.amazon.com
+  - affiliate-program.amazon.com
+  - merchant-portal.amazon.com
+
+Conclusion:
+The presence of numerous subdomains indicates a large attack surface
+and complex infrastructure.
