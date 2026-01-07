@@ -1,0 +1,10 @@
+This project demonstrates a complete Vulnerability Assessment and
+Penetration Testing (VAPT) cycle conducted in a controlled lab
+environment. The assessment identified critical security issues,
+including SQL Injection and misconfigured services. These weaknesses
+were successfully exploited to demonstrate their real-world impact.
+Remediation steps were proposed to reduce security risks, followed
+by a rescan to validate improvements. This exercise highlights the
+importance of regular security testing, secure coding practices,
+and continuous monitoring to protect applications and systems
+from potential cyber threats.
