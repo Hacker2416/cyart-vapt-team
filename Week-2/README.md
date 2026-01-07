@@ -1,1 +1,1 @@
-Week-2 Practical Application – VAPT
+Week-2 – VAPT
