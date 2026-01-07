@@ -1,0 +1,11 @@
+Tool: Wappalyzer
+
+Identified Technologies:
+- CDN: Amazon CloudFront
+- PaaS: Amazon Web Services (AWS)
+- Security: HSTS
+- Protocol: HTTP/3
+
+Conclusion:
+Technology stack identification helps in understanding the underlying
+platforms and security mechanisms used by the target.
