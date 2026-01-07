@@ -1,0 +1,10 @@
+Reconnaissance Steps Performed:
+
+1. Performed WHOIS lookup to identify domain registration details.
+2. Enumerated subdomains using Sublist3r.
+3. Identified web technologies using Wappalyzer browser extension.
+4. Collected exposed service information using Shodan.
+5. Performed asset mapping and relationship analysis using Maltego.
+
+All steps were conducted using passive reconnaissance techniques
+without interacting directly with the target infrastructure.
