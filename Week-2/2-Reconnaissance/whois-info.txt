@@ -1,0 +1,14 @@
+Tool: WHOIS
+
+Target Domain: amazon.com
+
+Key Information Identified:
+- Domain registered in 1994
+- Registrar: MarkMonitor Inc.
+- Organization: Amazon Technologies, Inc.
+- Country: United States
+- Multiple name servers associated with the domain
+
+Conclusion:
+WHOIS information provides insight into ownership, registration history,
+and administrative details of the target domain.
