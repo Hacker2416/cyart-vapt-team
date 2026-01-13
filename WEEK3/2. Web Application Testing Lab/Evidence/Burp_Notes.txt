@@ -1,0 +1,7 @@
+# Burp Notes - DVWA Testing
+
+- Burp proxy configured and intercept enabled.
+- DVWA requests captured and analyzed.
+- Cookie observed: PHPSESSID
+- Removing cookie caused HTTP 302 redirect to login.php
+- Requests manipulated using Burp Repeater for manual testing.
