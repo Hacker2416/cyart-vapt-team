@@ -1,0 +1,12 @@
+# Manual Testing Steps (DVWA)
+
+1) Login to DVWA
+2) Set DVWA Security level to LOW
+3) Test SQLi page with:
+   1' OR '1'='1
+4) Confirm output returns multiple records
+5) Run sqlmap to confirm injection and dump users table
+6) Open XSS Reflected module and test:
+   <script>alert(1)</script>
+7) Confirm popup appears
+8) Capture Burp intercept proof and 302 redirect proof
