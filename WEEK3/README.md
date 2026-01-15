@@ -2,7 +2,7 @@
 
 ## Lab Environment
 Attacker: Kali Linux 
-Target: Metasploitable2  
+Target: Metasploitable2, Windows 7
 Web App: DVWA 
 
 ## Week 3 Tasks Included
