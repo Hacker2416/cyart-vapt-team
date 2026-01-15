@@ -1,0 +1,5 @@
+A full VAPT capstone assessment was performed on a vulnerable lab system to evaluate security exposure. 
+Scanning identified multiple weaknesses due to outdated services. Exploitation was successfully performed against the FTP service, resulting in root-level access to the target machine.
+This confirms that an attacker could fully compromise the system, execute commands, and potentially steal or manipulate data. 
+Immediate remediation is recommended, including patching or disabling vulnerable services, restricting open ports, and applying system hardening. 
+After fixes, the system should be rescanned to verify that critical vulnerabilities are resolved. Regular security testing is advised to prevent recurrence.
