@@ -1,0 +1,6 @@
+# Rescan Notes (Recommended)
+
+After applying remediation (patch/disable FTP, restrict ports):
+1) Run OpenVAS scan again
+2) Confirm critical FTP vulnerability is removed or reduced
+3) Save rescan screenshot as proof
