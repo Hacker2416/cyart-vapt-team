@@ -1,0 +1,12 @@
+# OpenVAS Task Creation Notes
+
+1) Open OpenVAS web interface (Greenbone)
+2) Go to: Scans -> Tasks
+3) Click New Task
+4) Name: Metasploitable
+5) Target: Metasploitable2 / 192.168.75.131
+6) Scanner: OpenVAS Default
+7) Save and Start the task
+8) Monitor status until Done
+9) View report and vulnerabilities list
+10) Take screenshots of task creation, task dashboard, and vulnerabilities list
