@@ -1,0 +1,3 @@
+MobSF was used for static analysis of an Android APK and insecure storage issues were identified. 
+Frida tools were installed and tested on an Android emulator to list processes and attempt hooking for bypass testing.
+Drozer is used to test IPC components and identify exported vulnerabilities for security validation.
