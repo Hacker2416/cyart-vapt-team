@@ -39,9 +39,3 @@ This task demonstrates a complete Vulnerability Assessment and Penetration Testi
 - Performed vulnerability scan and documented findings
 - Generated vulnerability list and severity results
 
----
-
----
-
-## Disclaimer
-This project was performed strictly in a legal, isolated lab environment for educational and internship reporting purposes only.
