@@ -1,0 +1,13 @@
+MobSF (Docker):
+sudo docker pull opensecurity/mobile-security-framework-mobsf
+sudo docker run -it -p 8000:8000 opensecurity/mobile-security-framework-mobsf
+
+Frida:
+pip install frida-tools
+frida-ps -Uai
+frida -U -n com.example.mobileapplicationtestinglab
+
+Drozer (IPC Testing):
+drozer console connect
+run app.package.list
+run app.package.info com.example.mobileapplicationtestinglab
