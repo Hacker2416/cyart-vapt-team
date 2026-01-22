@@ -41,8 +41,6 @@ This task demonstrates a complete Vulnerability Assessment and Penetration Testi
 
 ---
 
-## Evidence
-All screenshots are available in screenshot folders:
 ---
 
 ## Disclaimer
