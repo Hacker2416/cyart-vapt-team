@@ -1,0 +1,8 @@
+# LinPEAS Notes - Task 03
+
+- LinPEAS was used for system enumeration.
+- Key privilege escalation vector found: SUID binaries.
+- Important SUID binary discovered: /usr/bin/nmap
+- Privilege escalation achieved via Nmap interactive shell escape.
+- Root access verified using: whoami, id
+- Persistence configured using cron job in /etc/cron.d/
