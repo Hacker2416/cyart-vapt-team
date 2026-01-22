@@ -1,0 +1,5 @@
+This security assessment simulated a real penetration test in a controlled lab environment to understand how attackers can compromise vulnerable systems.
+During testing, the target machine was found to have outdated services exposed to the network. A critical vulnerability in the FTP service allowed remote attackers to gain unauthorized access. 
+Using safe testing tools, this weakness was exploited to demonstrate the risk and confirm the severity of the issue. Web traffic was also tested using Burp Suite to validate how the server handles requests and basic security checks. 
+A vulnerability scan using OpenVAS documented multiple security findings and highlighted the most critical risks. To reduce risk, the system should be updated regularly, vulnerable services should be removed or secured, and access should be restricted using firewall rules and least privilege.
+This activity shows the importance of continuous vulnerability management, patching, and security hardening to protect systems from common attacks.
