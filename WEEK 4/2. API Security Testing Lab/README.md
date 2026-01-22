@@ -32,5 +32,3 @@ This task focuses on performing API security testing using Burp Suite, Postman, 
 All screenshots are stored inside: `Screenshots/`
 
 
-## Status
-✅ Completed (with proper testing attempts and evidence)
