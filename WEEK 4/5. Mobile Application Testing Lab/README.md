@@ -10,9 +10,9 @@ Perform Mobile Application Security Testing using MobSF (static analysis), Frida
 - Android Emulator
 
 ## Task Checklist
-- [x] Run MobSF for static analysis
-- [x] Hook functions with Frida
-- [ ] Test IPC with Drozer (Pending Screenshot)
+   Run MobSF for static analysis
+   Hook functions with Frida
+   Test IPC with Drozer (Pending Screenshot)
 
 ## Screenshots
 All proof screenshots are available inside the `screenshots/` folder.
