@@ -1,0 +1,5 @@
+Test ID | Vulnerability     | Severity | Target App
+016     | Insecure Storage  | High     | diva.apk
+
+Observation:
+MobSF reported insecure storage and other warnings like debug enabled and external storage access.
