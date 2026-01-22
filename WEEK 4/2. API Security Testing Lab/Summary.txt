@@ -1,0 +1,2 @@
+API security testing was performed on the target DVWA environment using Gobuster, Burp Suite, Postman, and sqlmap. Endpoints were enumerated and SQL injection was confirmed using manual testing and sqlmap. 
+BOLA and GraphQL testing were attempted on /api/users and /graphql, but both endpoints returned 404 Not Found responses.
