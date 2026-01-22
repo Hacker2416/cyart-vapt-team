@@ -19,10 +19,10 @@ Perform Network Protocol Attacks to understand Man-in-the-Middle (MitM) techniqu
 ---
 
 ## Task Checklist (As per Practical)
-✅ Capture NTLM hashes (Responder)  
-✅ Spoof DNS / MitM (Ettercap)  
-✅ Analyze traffic (Wireshark)  
-✅ SMB Relay attempt using ntlmrelayx (Enhanced Task)
+ Capture NTLM hashes (Responder)  
+ Spoof DNS / MitM (Ettercap)  
+ Analyze traffic (Wireshark)  
+ SMB Relay attempt using ntlmrelayx (Enhanced Task)
 
 ---
 
