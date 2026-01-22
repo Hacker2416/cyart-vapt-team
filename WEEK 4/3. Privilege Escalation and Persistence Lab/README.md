@@ -35,6 +35,6 @@ The objective of this task is to perform privilege escalation on a vulnerable Li
 
 ### 4) Persistence
 - Created a cron job in `/etc/cron.d/` for persistence
-- Verified persistence by checking output written to `/tmp/persist.txt`
+- Verified persistence by checking output written to `/tmp/persist.txt` 
 
 
